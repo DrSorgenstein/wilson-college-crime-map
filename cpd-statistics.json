@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-10-18",
+  "period_basis": "Calendar year, January 1 through December 31",
+  "sources": {
+    "cpd-report": {
+      "label": "CPD published report",
+      "publisher": "Borough of Chambersburg / Police Department",
+      "geography": "Chambersburg Borough; CPD records",
+      "url": "https://www.chambersburgpa.gov/pdf/2026BudgetApprovedbyCouncil121525Small.pdf",
+      "source": "2026 budget document, Police Department section: printed p.133 (PDF p.139), printed p.135 (PDF p.145)",
+      "recipe": "Part I/II annual table, 2022\u20132024; 2024 calls for service",
+      "note": "Part I includes arson in this source. Calls are service workload, not crimes. Clearances can concern offenses reported in a different year. No 2025 complete-year figure is supplied by this table.",
+      "color": "#3867b1",
+      "scope": "borough"
+    },
+    "cpd-ucr": {
+      "label": "CPD via Pennsylvania UCR",
+      "publisher": "Pennsylvania UCR; reporting agency Chambersburg Borough PA0280100",
+      "geography": "Chambersburg Borough agency scope",
+      "url": "https://www.ucr.pa.gov/PAUCRSPublic",
+      "source": "Crime Dashboard \u2192 Agency \u2192 PA0280100 CHAMBERSBURG BOROUGH \u2192 Year 2025 \u2192 Offenses",
+      "recipe": "2025 and comparison year 2024; All other agencies excluded",
+      "note": "Current state dashboard snapshot, not an independent FBI investigation series. The displayed categories include simple assault, negligent manslaughter and human trafficking; its total is not the FBI violent+property total.",
+      "color": "#3867b1",
+      "scope": "borough"
+    }
+  },
+  "records": [
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Murder and nonnegligent manslaughter",
+      "value": 3,
+      "unit": "reported offenses",
+      "clearances": 3
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Manslaughter by negligence",
+      "value": 0,
+      "unit": "reported offenses",
+      "clearances": 0
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Rape",
+      "value": 1,
+      "unit": "reported offenses",
+      "clearances": 1
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Robbery",
+      "value": 6,
+      "unit": "reported offenses",
+      "clearances": 3
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Aggravated assault",
+      "value": 70,
+      "unit": "reported offenses",
+      "clearances": 63
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Simple assault",
+      "value": 83,
+      "unit": "reported offenses",
+      "clearances": 67
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Burglary",
+      "value": 35,
+      "unit": "reported offenses",
+      "clearances": 16
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Larceny-theft",
+      "value": 294,
+      "unit": "reported offenses",
+      "clearances": 120
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Motor vehicle theft",
+      "value": 8,
+      "unit": "reported offenses",
+      "clearances": 5
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Arson",
+      "value": 2,
+      "unit": "reported offenses",
+      "clearances": 2
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Human trafficking",
+      "value": 0,
+      "unit": "reported offenses",
+      "clearances": 0
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Murder and nonnegligent manslaughter",
+      "value": 2,
+      "unit": "reported offenses",
+      "clearances": 2
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Manslaughter by negligence",
+      "value": 1,
+      "unit": "reported offenses",
+      "clearances": 0
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Rape",
+      "value": 1,
+      "unit": "reported offenses",
+      "clearances": 1
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Robbery",
+      "value": 8,
+      "unit": "reported offenses",
+      "clearances": 2
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Aggravated assault",
+      "value": 92,
+      "unit": "reported offenses",
+      "clearances": 74
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Simple assault",
+      "value": 126,
+      "unit": "reported offenses",
+      "clearances": 109
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Burglary",
+      "value": 53,
+      "unit": "reported offenses",
+      "clearances": 36
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Larceny-theft",
+      "value": 320,
+      "unit": "reported offenses",
+      "clearances": 115
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Motor vehicle theft",
+      "value": 19,
+      "unit": "reported offenses",
+      "clearances": 11
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Arson",
+      "value": 4,
+      "unit": "reported offenses",
+      "clearances": 2
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Human trafficking",
+      "value": 0,
+      "unit": "reported offenses",
+      "clearances": 0
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 42,
+      "unit": "reported offenses",
+      "month": 1
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 40,
+      "unit": "reported offenses",
+      "month": 2
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 35,
+      "unit": "reported offenses",
+      "month": 3
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 44,
+      "unit": "reported offenses",
+      "month": 4
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 34,
+      "unit": "reported offenses",
+      "month": 5
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 47,
+      "unit": "reported offenses",
+      "month": 6
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 48,
+      "unit": "reported offenses",
+      "month": 7
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 42,
+      "unit": "reported offenses",
+      "month": 8
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 52,
+      "unit": "reported offenses",
+      "month": 9
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 58,
+      "unit": "reported offenses",
+      "month": 10
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 33,
+      "unit": "reported offenses",
+      "month": 11
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 27,
+      "unit": "reported offenses",
+      "month": 12
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 49,
+      "unit": "reported offenses",
+      "month": 1
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 33,
+      "unit": "reported offenses",
+      "month": 2
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 56,
+      "unit": "reported offenses",
+      "month": 3
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 81,
+      "unit": "reported offenses",
+      "month": 4
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 48,
+      "unit": "reported offenses",
+      "month": 5
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 58,
+      "unit": "reported offenses",
+      "month": 6
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 60,
+      "unit": "reported offenses",
+      "month": 7
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 53,
+      "unit": "reported offenses",
+      "month": 8
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 46,
+      "unit": "reported offenses",
+      "month": 9
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 43,
+      "unit": "reported offenses",
+      "month": 10
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 49,
+      "unit": "reported offenses",
+      "month": 11
+    },
+    {
+      "dataset": "cpd-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 50,
+      "unit": "reported offenses",
+      "month": 12
+    },
+    {
+      "dataset": "cpd-report",
+      "year": 2022,
+      "category": "Part I crimes reported",
+      "value": 472,
+      "unit": "reported offenses",
+      "clearances": 202
+    },
+    {
+      "dataset": "cpd-report",
+      "year": 2022,
+      "category": "Part II crimes reported",
+      "value": 716,
+      "unit": "reported offenses",
+      "clearances": 484
+    },
+    {
+      "dataset": "cpd-report",
+      "year": 2023,
+      "category": "Part I crimes reported",
+      "value": 473,
+      "unit": "reported offenses",
+      "clearances": 215
+    },
+    {
+      "dataset": "cpd-report",
+      "year": 2023,
+      "category": "Part II crimes reported",
+      "value": 719,
+      "unit": "reported offenses",
+      "clearances": 481
+    },
+    {
+      "dataset": "cpd-report",
+      "year": 2024,
+      "category": "Part I crimes reported",
+      "value": 500,
+      "unit": "reported offenses",
+      "clearances": 243
+    },
+    {
+      "dataset": "cpd-report",
+      "year": 2024,
+      "category": "Part II crimes reported",
+      "value": 752,
+      "unit": "reported offenses",
+      "clearances": 470
+    },
+    {
+      "dataset": "cpd-report",
+      "year": 2024,
+      "category": "Calls for service",
+      "value": 20675,
+      "unit": "calls for service"
+    }
+  ],
+  "warning": "Sources are separate collections. Do not sum across sources, geographies, totals and components, or measures. Null/missing is unavailable, not zero."
+}

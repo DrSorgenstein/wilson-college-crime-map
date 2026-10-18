@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-10-18",
+  "period_basis": "Calendar year, January 1 through December 31",
+  "sources": {
+    "fbi-cpd": {
+      "label": "FBI annual release \u00b7 Chambersburg",
+      "publisher": "FBI UCR, agency-reported data",
+      "geography": "Chambersburg city/borough row in Pennsylvania",
+      "url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads",
+      "source": "Crime in the United States \u2192 Offenses Known to Law Enforcement \u2192 Table 8, 2024 and 2025 releases",
+      "recipe": "Pennsylvania \u2192 Chambersburg; fixed annual publication downloaded 2026-10-18",
+      "note": "Republishes local agency data; do not add to CPD counts. Violent/property totals overlap their component offenses. Arson is separate from property crime. Population is the denominator in the same FBI row.",
+      "color": "#7853a6",
+      "scope": "borough"
+    },
+    "fbi-psp": {
+      "label": "FBI annual release \u00b7 PSP Franklin County",
+      "publisher": "FBI UCR; State Police Franklin County reporting unit",
+      "geography": "PSP offenses attributed to Franklin County; not a countywide all-agency total",
+      "url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads",
+      "source": "Crime in the United States \u2192 Offenses Known to Law Enforcement \u2192 Table 11, 2025 release",
+      "recipe": "Pennsylvania \u2192 State Agency \u2192 State Police \u2192 Franklin County",
+      "note": "2024 Table 11 provides a statewide PSP row, not this regional breakdown. Missing 2024 regional cells remain unavailable. Do not add this series to PSP station or county totals.",
+      "color": "#7853a6",
+      "scope": "regional"
+    }
+  },
+  "records": [
+    {
+      "dataset": "fbi-cpd",
+      "year": 2024,
+      "category": "Violent crime total",
+      "value": 104,
+      "unit": "reported offenses",
+      "population": 22366,
+      "table": 8,
+      "excel_row": 6464,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2024,
+      "category": "Murder and nonnegligent manslaughter",
+      "value": 2,
+      "unit": "reported offenses",
+      "population": 22366,
+      "table": 8,
+      "excel_row": 6464,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2024,
+      "category": "Rape",
+      "value": 2,
+      "unit": "reported offenses",
+      "population": 22366,
+      "table": 8,
+      "excel_row": 6464,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2024,
+      "category": "Robbery",
+      "value": 8,
+      "unit": "reported offenses",
+      "population": 22366,
+      "table": 8,
+      "excel_row": 6464,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2024,
+      "category": "Aggravated assault",
+      "value": 92,
+      "unit": "reported offenses",
+      "population": 22366,
+      "table": 8,
+      "excel_row": 6464,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2024,
+      "category": "Property crime total",
+      "value": 392,
+      "unit": "reported offenses",
+      "population": 22366,
+      "table": 8,
+      "excel_row": 6464,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2024,
+      "category": "Burglary",
+      "value": 53,
+      "unit": "reported offenses",
+      "population": 22366,
+      "table": 8,
+      "excel_row": 6464,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2024,
+      "category": "Larceny-theft",
+      "value": 320,
+      "unit": "reported offenses",
+      "population": 22366,
+      "table": 8,
+      "excel_row": 6464,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2024,
+      "category": "Motor vehicle theft",
+      "value": 19,
+      "unit": "reported offenses",
+      "population": 22366,
+      "table": 8,
+      "excel_row": 6464,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2024,
+      "category": "Arson",
+      "value": 4,
+      "unit": "reported offenses",
+      "population": 22366,
+      "table": 8,
+      "excel_row": 6464,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2025,
+      "category": "Violent crime total",
+      "value": 81,
+      "unit": "reported offenses",
+      "population": 23343,
+      "table": 8,
+      "excel_row": 6525,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2025,
+      "category": "Murder and nonnegligent manslaughter",
+      "value": 3,
+      "unit": "reported offenses",
+      "population": 23343,
+      "table": 8,
+      "excel_row": 6525,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2025,
+      "category": "Rape",
+      "value": 2,
+      "unit": "reported offenses",
+      "population": 23343,
+      "table": 8,
+      "excel_row": 6525,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2025,
+      "category": "Robbery",
+      "value": 6,
+      "unit": "reported offenses",
+      "population": 23343,
+      "table": 8,
+      "excel_row": 6525,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2025,
+      "category": "Aggravated assault",
+      "value": 70,
+      "unit": "reported offenses",
+      "population": 23343,
+      "table": 8,
+      "excel_row": 6525,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2025,
+      "category": "Property crime total",
+      "value": 337,
+      "unit": "reported offenses",
+      "population": 23343,
+      "table": 8,
+      "excel_row": 6525,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2025,
+      "category": "Burglary",
+      "value": 35,
+      "unit": "reported offenses",
+      "population": 23343,
+      "table": 8,
+      "excel_row": 6525,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2025,
+      "category": "Larceny-theft",
+      "value": 294,
+      "unit": "reported offenses",
+      "population": 23343,
+      "table": 8,
+      "excel_row": 6525,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2025,
+      "category": "Motor vehicle theft",
+      "value": 8,
+      "unit": "reported offenses",
+      "population": 23343,
+      "table": 8,
+      "excel_row": 6525,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-cpd",
+      "year": 2025,
+      "category": "Arson",
+      "value": 2,
+      "unit": "reported offenses",
+      "population": 23343,
+      "table": 8,
+      "excel_row": 6525,
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-psp",
+      "year": 2025,
+      "category": "Violent crime total",
+      "value": 105,
+      "unit": "reported offenses",
+      "population": null,
+      "table": 11,
+      "excel_row": 1460,
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-psp",
+      "year": 2025,
+      "category": "Murder and nonnegligent manslaughter",
+      "value": 0,
+      "unit": "reported offenses",
+      "population": null,
+      "table": 11,
+      "excel_row": 1460,
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-psp",
+      "year": 2025,
+      "category": "Rape",
+      "value": 32,
+      "unit": "reported offenses",
+      "population": null,
+      "table": 11,
+      "excel_row": 1460,
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-psp",
+      "year": 2025,
+      "category": "Robbery",
+      "value": 5,
+      "unit": "reported offenses",
+      "population": null,
+      "table": 11,
+      "excel_row": 1460,
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-psp",
+      "year": 2025,
+      "category": "Aggravated assault",
+      "value": 68,
+      "unit": "reported offenses",
+      "population": null,
+      "table": 11,
+      "excel_row": 1460,
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-psp",
+      "year": 2025,
+      "category": "Property crime total",
+      "value": 657,
+      "unit": "reported offenses",
+      "population": null,
+      "table": 11,
+      "excel_row": 1460,
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-psp",
+      "year": 2025,
+      "category": "Burglary",
+      "value": 196,
+      "unit": "reported offenses",
+      "population": null,
+      "table": 11,
+      "excel_row": 1460,
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-psp",
+      "year": 2025,
+      "category": "Larceny-theft",
+      "value": 429,
+      "unit": "reported offenses",
+      "population": null,
+      "table": 11,
+      "excel_row": 1460,
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-psp",
+      "year": 2025,
+      "category": "Motor vehicle theft",
+      "value": 32,
+      "unit": "reported offenses",
+      "population": null,
+      "table": 11,
+      "excel_row": 1460,
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx"
+    },
+    {
+      "dataset": "fbi-psp",
+      "year": 2025,
+      "category": "Arson",
+      "value": 3,
+      "unit": "reported offenses",
+      "population": null,
+      "table": 11,
+      "excel_row": 1460,
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx"
+    }
+  ],
+  "warning": "Sources are separate collections. Do not sum across sources, geographies, totals and components, or measures. Null/missing is unavailable, not zero.",
+  "original_selected_rows": [
+    {
+      "dataset": "fbi-cpd",
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2024.xlsx",
+      "excel_row": 6464,
+      "original_cells": [
+        "PENNSYLVANIA",
+        "Chambersburg",
+        22366,
+        104,
+        2,
+        2,
+        8,
+        92,
+        392,
+        53,
+        320,
+        19,
+        4,
+        null
+      ]
+    },
+    {
+      "dataset": "fbi-cpd",
+      "filename": "CIUS_Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2025.xlsx",
+      "excel_row": 6525,
+      "original_cells": [
+        "Pennsylvania",
+        "Chambersburg",
+        23343,
+        81,
+        3,
+        2,
+        6,
+        70,
+        337,
+        35,
+        294,
+        8,
+        2,
+        null
+      ]
+    },
+    {
+      "dataset": "fbi-psp",
+      "filename": "CIUS_Table_11_Offenses_Known_to_Law_Enforcement_by_State_by_State_Tribal_and_Other_Agencies_2025.xlsx",
+      "excel_row": 1460,
+      "original_cells": [
+        "Pennsylvania",
+        "State Agency",
+        "State Police",
+        "Franklin County",
+        105,
+        0,
+        32,
+        5,
+        68,
+        657,
+        196,
+        429,
+        32,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-10-18",
+  "period_basis": "Calendar year, January 1 through December 31",
+  "sources": {
+    "psp-ucr": {
+      "label": "PSP Chambersburg via Pennsylvania UCR",
+      "publisher": "Pennsylvania UCR; PSP Troop H Chambersburg Station PAPSP1200",
+      "geography": "PSP Chambersburg station reporting area; not all Franklin County agencies",
+      "url": "https://www.ucr.pa.gov/PAUCRSPublic",
+      "source": "Crime Dashboard \u2192 Agency \u2192 PAPSP1200 PSP TROOP H CHAMBERSBURG STATION \u2192 Year 2025 \u2192 Offenses",
+      "recipe": "2025 and comparison year 2024; no municipal police agencies selected",
+      "note": "Station-based reporting scope is not assumed identical to FBI Franklin County PSP grouping. These are UCR offenses, not CAID investigation counts. No station boundary is inferred.",
+      "color": "#ae731c",
+      "scope": "regional"
+    }
+  },
+  "records": [
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Murder and nonnegligent manslaughter",
+      "value": 0,
+      "unit": "reported offenses",
+      "clearances": 0
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Manslaughter by negligence",
+      "value": 0,
+      "unit": "reported offenses",
+      "clearances": 0
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Rape",
+      "value": 32,
+      "unit": "reported offenses",
+      "clearances": 22
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Robbery",
+      "value": 5,
+      "unit": "reported offenses",
+      "clearances": 5
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Aggravated assault",
+      "value": 67,
+      "unit": "reported offenses",
+      "clearances": 48
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Simple assault",
+      "value": 701,
+      "unit": "reported offenses",
+      "clearances": 665
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Burglary",
+      "value": 196,
+      "unit": "reported offenses",
+      "clearances": 28
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Larceny-theft",
+      "value": 430,
+      "unit": "reported offenses",
+      "clearances": 174
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Motor vehicle theft",
+      "value": 32,
+      "unit": "reported offenses",
+      "clearances": 19
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Arson",
+      "value": 3,
+      "unit": "reported offenses",
+      "clearances": 2
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Human trafficking",
+      "value": 1,
+      "unit": "reported offenses",
+      "clearances": 0
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Murder and nonnegligent manslaughter",
+      "value": 3,
+      "unit": "reported offenses",
+      "clearances": 6
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Manslaughter by negligence",
+      "value": 1,
+      "unit": "reported offenses",
+      "clearances": 0
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Rape",
+      "value": 35,
+      "unit": "reported offenses",
+      "clearances": 22
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Robbery",
+      "value": 0,
+      "unit": "reported offenses",
+      "clearances": 0
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Aggravated assault",
+      "value": 56,
+      "unit": "reported offenses",
+      "clearances": 57
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Simple assault",
+      "value": 642,
+      "unit": "reported offenses",
+      "clearances": 591
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Burglary",
+      "value": 81,
+      "unit": "reported offenses",
+      "clearances": 21
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Larceny-theft",
+      "value": 385,
+      "unit": "reported offenses",
+      "clearances": 160
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Motor vehicle theft",
+      "value": 45,
+      "unit": "reported offenses",
+      "clearances": 13
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Arson",
+      "value": 6,
+      "unit": "reported offenses",
+      "clearances": 4
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Human trafficking",
+      "value": 2,
+      "unit": "reported offenses",
+      "clearances": 1
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 104,
+      "unit": "reported offenses",
+      "month": 1
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 178,
+      "unit": "reported offenses",
+      "month": 2
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 127,
+      "unit": "reported offenses",
+      "month": 3
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 127,
+      "unit": "reported offenses",
+      "month": 4
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 179,
+      "unit": "reported offenses",
+      "month": 5
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 118,
+      "unit": "reported offenses",
+      "month": 6
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 106,
+      "unit": "reported offenses",
+      "month": 7
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 122,
+      "unit": "reported offenses",
+      "month": 8
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 110,
+      "unit": "reported offenses",
+      "month": 9
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 101,
+      "unit": "reported offenses",
+      "month": 10
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 90,
+      "unit": "reported offenses",
+      "month": 11
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2025,
+      "category": "Dashboard offense count by month",
+      "value": 105,
+      "unit": "reported offenses",
+      "month": 12
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 113,
+      "unit": "reported offenses",
+      "month": 1
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 92,
+      "unit": "reported offenses",
+      "month": 2
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 118,
+      "unit": "reported offenses",
+      "month": 3
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 113,
+      "unit": "reported offenses",
+      "month": 4
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 106,
+      "unit": "reported offenses",
+      "month": 5
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 115,
+      "unit": "reported offenses",
+      "month": 6
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 106,
+      "unit": "reported offenses",
+      "month": 7
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 104,
+      "unit": "reported offenses",
+      "month": 8
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 102,
+      "unit": "reported offenses",
+      "month": 9
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 107,
+      "unit": "reported offenses",
+      "month": 10
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 89,
+      "unit": "reported offenses",
+      "month": 11
+    },
+    {
+      "dataset": "psp-ucr",
+      "year": 2024,
+      "category": "Dashboard offense count by month",
+      "value": 91,
+      "unit": "reported offenses",
+      "month": 12
+    }
+  ],
+  "warning": "Sources are separate collections. Do not sum across sources, geographies, totals and components, or measures. Null/missing is unavailable, not zero."
+}
