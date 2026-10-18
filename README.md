@@ -25,7 +25,7 @@ At https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads choose Crime in the 
 ## CPD published report
 
 https://www.chambersburgpa.gov/pdf/2026BudgetApprovedbyCouncil121525Small.pdf
-Police Department: printed p.133 / PDF p.139 for Part I/II; printed p.135 / PDF p.145 for calls for service. Part I includes arson. Preserved source values are not silently reconciled to other publications.
+Police Department: printed p.129 / PDF p.139 for Part I/II; printed p.135 / PDF p.145 for calls for service. Part I includes arson. Preserved source values are not silently reconciled to other publications.
 
 ## Interpretation
 
